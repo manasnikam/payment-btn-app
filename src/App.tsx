@@ -12,7 +12,7 @@ import PaymentDialog from './components/PaymentDialog';
 
 const App = () => {
 
-  const { setShowPaymentDialog } = useApp()
+  const { setShowPaymentDialog } = useApp();
 
   return (
     <Container>

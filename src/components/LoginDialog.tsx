@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import { useApp } from "../context/AppContext";
 
 
-const LoginDialog = () => {
+const LoginDialog: React.FC = () => {
 
     const { showLoginDialog } = useApp()
 
